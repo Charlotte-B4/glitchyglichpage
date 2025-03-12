@@ -5,22 +5,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 2em;
-  background: #cbf1e4;
-  background-image: linear-gradient(
-    black,
-    pink,
-    #cbf1e4
+  background: black;
+  background-image: url("https://cdn.glitch.global/8789d4c5-b724-48c7-931f-f33ca033f9dd/milkyway.jpeg?v=1705962223789");
   ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
 
 /* font used for dropdown menu - edit this*/
 h2 {
-  font-family: "Kalam", cursive;
+  font-family: "Permanent Marker", sans-serif;
   text-shadow: 1px 1px white;
   font-size: 30px;
   font-style: bold;
-  margin-top: 0;
+  margin-top: 10;
   margin-bottom: 0;
   text-align: center;
 }
@@ -34,7 +31,7 @@ h3 {
 
 /* font used for title of haiku - edit this */
 h4 {
-  font-family: "Zen Dots", cursive;
+  font-family: "Cedarville Cursive", cursive;
   font-size: 22px;
   font-style: bold;
   text-align: center;
@@ -49,14 +46,15 @@ h5 {
 /* Style the card for the header/title card */
 .cardTitle {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  padding: 16px;
+  padding: 70px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/clouds.jpeg?v=1704340625786");
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/sean-brown-QKSm-kXeWac-unsplash.jpg?v=1741744984345");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  font-family: "PT Serif", serif;
-  font-size: 1.5em;
+  font-family: "Doto", sans-serif;
+  font-size: 1.8em;
+  color: white;
 }
 
 /* Style the card for phone error alerts (do not edit)*/
@@ -92,15 +90,15 @@ h5 {
 /* Style the card for text messages */
 .cardText {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/txt-msg.png?v=1704432850592");
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/Sneaking%20Out%20Daffy%20Duck%20GIF%20by%20Looney%20Tunes.gif?v=1741745025932");
   background-size: contain;
   background-repeat: no-repeat;
   padding: 20px;
   padding-top: 110px;
-  padding-bottom: 450px;
+  padding-bottom: 300px;
   line-height: 0.8em;
   border-radius: 10px 10px 10px 10px;
-  background-color: white;
+  background-color: ;
   font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -127,9 +125,9 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: navy;
   color: white;
-  font-family: "PT Serif", serif; /* font for <p> text */
+  font-family: "Cedarville Cursive", cursive; /* font for <p> text */
   font-size: 14px;
   text-align: center;
 }
@@ -156,7 +154,7 @@ h5 {
   background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
   color: #68d911;
   font-family: "Source Code Pro", monospace;
-  font-size: 14px; 
+  font-size: 14px;
 }
 
 /* style button for remixing the haiku*/
