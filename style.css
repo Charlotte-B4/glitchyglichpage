@@ -6,8 +6,8 @@ body {
   font-size: 12px;
   margin: 2em;
   background: black;
-  background-image: url("https://cdn.glitch.global/8789d4c5-b724-48c7-931f-f33ca033f9dd/milkyway.jpeg?v=1705962223789");
-  ); /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/edvinas-bruzas-Plkff-dVfNM-unsplash.jpg?v=1742185586972");
+  /* change the background colour here - you can specify a solid colour, a gradiant or an image - you can find HEX codes for colours at https://htmlcolorcodes.com/ */
   background-image: cover;
 }
 
@@ -48,13 +48,16 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 70px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/sean-brown-QKSm-kXeWac-unsplash.jpg?v=1741744984345");
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/drew-dizzy-graham-_Sr03VSKIeg-unsplash.jpg?v=1742185882141");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
   font-family: "Doto", sans-serif;
   font-size: 1.8em;
   color: white;
+  margin-left: 300px;
+  width: 800px;
 }
 
 /* Style the card for phone error alerts (do not edit)*/
@@ -81,7 +84,7 @@ h5 {
   background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/notes-bg-black.png?v=1704432785084");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 375px;
+  min-height: 300px;
   color: white;
   font-family: "Source Code Pro", monospace;
   font-size: 12px;
@@ -90,12 +93,12 @@ h5 {
 /* Style the card for text messages */
 .cardText {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/Sneaking%20Out%20Daffy%20Duck%20GIF%20by%20Looney%20Tunes.gif?v=1741745025932");
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/Animated%20GIF.gif?v=1742185874020");
   background-size: contain;
   background-repeat: no-repeat;
-  padding: 20px;
-  padding-top: 110px;
-  padding-bottom: 300px;
+  width: 400px;
+  height: 300px;
+  margin-left: 30px;
   line-height: 0.8em;
   border-radius: 10px 10px 10px 10px;
   background-color: ;
@@ -107,7 +110,7 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 10px;
   padding-bottom: 80px;
-  min-height: 375px;
+  min-height: 300px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
@@ -125,9 +128,9 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: navy;
-  color: white;
-  font-family: "Cedarville Cursive", cursive; /* font for <p> text */
+  background-image: linear-gradient(to bottom right, #60cee2, white);
+  color: navy;
+  font-family: Georgia; /* font for <p> text */
   font-size: 14px;
   text-align: center;
 }
@@ -151,8 +154,8 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: #000000;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
-  color: #68d911;
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/jonatan-pie-zIFd5IOCnls-unsplash.jpg?v=1742188323273"); /* replace this gif background with an image of your choosing or create your own gif at giphy.com using a plain background and adding effects or just delete the background-image property and you can set the background-color to what you want (it's currently black)*/
+  color: white;
   font-family: "Source Code Pro", monospace;
   font-size: 14px;
 }
@@ -160,10 +163,10 @@ h5 {
 /* style button for remixing the haiku*/
 .buttonHaiku {
   border-radius: 8px;
-  color: #000000;
-  background-color: white;
+  border-color: transparent;
+  background-color: transparent;
   font-family: "PT Serif", serif;
-  font-size: 12px;
+  font-size: 25px;
   margin: 15px;
 }
 
