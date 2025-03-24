@@ -81,7 +81,7 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: left;
   background-color: white;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/notes-bg-black.png?v=1704432785084");
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/sj-objio-XFWiZTa2Ub0-unsplash.jpg?v=1742189463876");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 300px;
@@ -114,10 +114,10 @@ h5 {
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fstationery-155143_960_720.png?v=1618796683465"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
+  background-image: url("https://cdn.glitch.global/0f45e092-5921-400f-8889-129ebc206333/dan-cristian-padure-3bb9RUp86M0-unsplash.jpg?v=1742189525442"); /* replace this jpg background with an image of your choosing or you can delete this line and just have a plain background */
   background-position: center;
   background-size: cover;
-  font-size: 28px;
+  font-size: 15px;
   font-family: "Kalam", cursive;
 }
 
@@ -378,6 +378,7 @@ img {
   clear: both;
   float: left;
   margin-bottom: 20px;
+  margin-top: 5px;
   padding: 8px 30px;
   position: relative;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
