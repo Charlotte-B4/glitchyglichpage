@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "code is hard" ,
+  "writing is hard" ,
   "steal - steal - steal" ,
-  "why not steal the code" ,
+  "why not steal the letters" ,
   "and still be an author",
   "you are the author" ,
   "out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "it's the ideas.",
+  "bad connection.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -40,16 +40,16 @@ function addEval(evalText) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+  if (x === "window") {
+    addEval("blocking the wind. its comfortable. maybe too comfortable.");
+  } else if (x === "wind") {
+    addEval("blocked by the window, which means 'wind eye' according to a certain other search engine. eyes see too much and block ideas.");
+  } else if (x === "ice") {
+    addEval("walking down the muddy path to the creek. rushing water. construction happening across the bank. i should've worn gloves.");
+  } else if (x === "possum") {
+    addEval("the possum that won't stop snacking from the orange tree. the other possum who slept in the floating flower-bed outside the kitchen window.");
+  } else if (x === "thaw") {
+    addEval("people always say I shouldn't wear socks to bed - i will freeze without them - them as in the socks and the squabbles.");
   }
 }
 //end of dropdown function
@@ -101,26 +101,57 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "announcement: the bus leaves in 5 minutes. you’re still at home.",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "buy a bag that’s light enough",
+  
+  "chapstick for cold lips",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "dance heels to weigh me down",
+  
+  "exercise-induced asthma symptoms",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
-
-  "earliest memories as a child",
-  "emotional manipulation signs",
-
-  "fridge magnets",
+  "foot cramp? get some running shoes",
+  
+  "good form!",
+  
+  "hot on your toes!",
+  
+  "icy morning",
+  
+  "just what I needed today",
+  
+  "K.",
+  
+  "languid morning cut short",
+  
+  "minutes away from stop - two",
+  
+  "no one around - the great run won’t be too embarrassing",
+  
+  "only one minute delayed -",
+  
+  "poked in the eye by a rogue tree branch",
+  
+  "quick! stop searching! you don't have time!",
+  
+  "road work ahead",
+  
+  "swinging keychains to knock against the empty water bottle",
+  
+  "two <em>more</em> minutes delayed. thank God.",
+  
+  "ultimate tips for how to reset one's sleep schedule",
+  
+  "very very cold hands",
+  
+  "why did I forget the pages from the printer? it's the reason I'm running late today",
+  
+  "xbox for sale. (want one after this)",
+  
+  "yeti. feel like a wailing yeti.",
+  
+  "zero minutes left. (made it)",
 ];
 //search function (do not edit)
 function changeText(e) {
